@@ -3,6 +3,10 @@ BOT_NAME = 'pep_parse'
 SPIDER_MODULES = ['pep_parse.spiders']
 NEWSPIDER_MODULE = 'pep_parse.spiders'
 
+ALLOWED_DOMAINS = ['peps.python.org']
+PEP = 'pep'
+START_URL = ['https://peps.python.org/']
+STATUS_SUMMARY = 'status_summary'
 
 ROBOTSTXT_OBEY = True
 
