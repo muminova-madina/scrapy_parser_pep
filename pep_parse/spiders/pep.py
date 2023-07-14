@@ -1,7 +1,6 @@
 import scrapy
-from scrapy import Selector
 
-from pep_parse.constants import PATTERN
+
 from pep_parse.items import PepParseItem
 from pep_parse.settings import ALLOWED_DOMAINS, PEP, START_URL
 
